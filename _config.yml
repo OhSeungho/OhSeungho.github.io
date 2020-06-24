@@ -116,7 +116,7 @@ author:
       url: "https://github.com/OhSeungho"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/seung_ho_o/"
+      # url: "https://www.instagram.com/seung_ho_o/"
 
 # Site Footer
 footer:
