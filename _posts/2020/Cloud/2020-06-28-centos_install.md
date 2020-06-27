@@ -31,10 +31,9 @@ Windows 환경에서 가상머신을 사용해 CenOS를 설치해 보고자 합�
 <https://www.virtualbox.org/wiki/Downloads>
 
 ![1_virtualbox](https://user-images.githubusercontent.com/51220344/85927725-e312c800-b8e2-11ea-8495-c0e16524d06d.PNG)
+<u># 빨간 박스 "Windows hosts 클릭</u>
 
-\\<!-- 빨간 박스 "Windows hosts 클릭 -->
-
-
+다운 받은 VirtualBox-xx.xx.xx-xxxxxx-Win.exe를 실행합니다.
 
 ## 2. Cent OS iso 가져요기
 
