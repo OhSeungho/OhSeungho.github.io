@@ -25,7 +25,7 @@ last_modified_at: 2020-06-28T00:00:00+00:00
 
 https://www.virtualbox.org/wiki/Downloads
 
-![1_virtualbox](./image/2020/Cloud/1_virtualbox.PNG)
+![1_virtualbox](./_images/2020/Cloud/1_virtualbox.PNG)
 
 ## 2. Cent OS iso 가져요기
 
