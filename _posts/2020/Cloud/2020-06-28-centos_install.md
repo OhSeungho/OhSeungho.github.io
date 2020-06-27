@@ -27,7 +27,7 @@ https://www.virtualbox.org/wiki/Downloads
 
  imagetest
 
-![1_virtualbox](./images/2020/Cloud/1_virtualbox.PNG)
+![1_virtualbox](https://user-images.githubusercontent.com/51220344/85927725-e312c800-b8e2-11ea-8495-c0e16524d06d.PNG)
 
 ## 2. Cent OS iso 가져요기
 
