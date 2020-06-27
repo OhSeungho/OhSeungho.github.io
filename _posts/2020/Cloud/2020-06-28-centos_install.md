@@ -19,15 +19,22 @@ meta_keywords:
 last_modified_at: 2020-06-28T00:00:00+00:00
 ---
 
-# CentOS 설치
+Windows 환경에서 가상머신을 사용해 CenOS를 설치해 보고자 합니다.
+
+중간 중간 Ubuntu 환경에서 설치할 떄와 차이점도 살짝 적어두었습니다.
 
 ## 1. Virtual Box 설치
 
-https://www.virtualbox.org/wiki/Downloads
 
- imagetest
+아래의 링크를 통해 Oracle VM VirtualBox 설치 파일을 다운로드 합니다.
+
+<https://www.virtualbox.org/wiki/Downloads>
 
 ![1_virtualbox](https://user-images.githubusercontent.com/51220344/85927725-e312c800-b8e2-11ea-8495-c0e16524d06d.PNG)
+
+\\<!-- 빨간 박스 "Windows hosts 클릭 -->
+
+
 
 ## 2. Cent OS iso 가져요기
 
