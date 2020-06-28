@@ -1,5 +1,5 @@
 ---
-title: "CentOS 설치"
+title: "VirtualBox CentOS 설치"
 layout: single
 author_profile: true
 read_time: true
@@ -11,11 +11,11 @@ categories:
 toc: true
 toc_sticky: true
 toc_label: 목차
-description: 
-article_tag1: 
-article_tag2: 
-article_section: 
-meta_keywords: 
+description: VirtualBox를 활용하여 가상머신에 Cent OS 설치해보기
+article_tag1: VirtualBox
+article_tag2: Cent OS
+article_section: VM
+meta_keywords: VirtualBox, CentOS, VM, 가상머신
 last_modified_at: 2020-06-28T00:00:00+00:00
 ---
 
