@@ -22,13 +22,13 @@ last_modified_at: 2020-07-07T00:00:00+00:00
 
 ## 0. createrepo 설치
 
-'''
+'''linux
 yum install createrepo -y
 '''
 
 ## 1. rpm 디렉토리 생성
 
-'''
+'''linux
 mkdir /cowsaylocal
 mv [cowsay rpm file] /[cowsaylocal]
 ```
@@ -37,7 +37,7 @@ mv [cowsay rpm file] /[cowsaylocal]
 
 ## 2. repository 파일 생성
 
-```
+```linux
 vi /etc/yum.repos.d/[생성할 repository].repo
 [cowsaylocal]
 name=cowsay local repository generates ASCII pictures of cow with a message
@@ -49,12 +49,12 @@ gpgcheck=0 #
 
 ## 3. repository 생성
 
-```
+```linux
 createrepo /cowsaylocal
 ```
 
 ## 4. 확인
 
-```
+```linux
 yum repolist
 ```
