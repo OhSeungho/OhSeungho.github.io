@@ -18,43 +18,43 @@ article_section: VM
 meta_keywords: VirtualBox, CentOS, VM, 가상머신
 last_modified_at: 2020-07-07T00:00:00+00:00
 ---
-## local repository
+# local repository
 
-## 0. createrepo 설치
+0. createrepo 설치
 
-'''linux
+~~~
 yum install createrepo -y
-'''
+~~~
 
-## 1. rpm 디렉토리 생성
+1. rpm 디렉토리 생성
 
-'''linux
-mkdir /cowsaylocal
-mv [cowsay rpm file] /[cowsaylocal]
-```
+~~~
+mkdir /cowsay-local
+mv [cowsay rpm file] /[cowsay-local]
+~~~
 
 <u>기본 파일들은 백업해두기</u>
 
-## 2. repository 파일 생성
+2. repository 파일 생성
 
-```linux
+~~~
 vi /etc/yum.repos.d/[생성할 repository].repo
-[cowsaylocal]
+[cowsay-local]
 name=cowsay local repository generates ASCII pictures of cow with a message
-baseurl=///cowsaylocal
-# ssh로 연결해서 배포할 IP Address
+baseurl=http://192.168.56.100/cowsaylocal
+# ssh 연결 IP Address
 enabled=1 # 
 gpgcheck=0 # 
-```
+~~~
 
-## 3. repository 생성
+3. repository 생성
 
-```linux
+~~~
 createrepo /cowsaylocal
-```
+~~~
 
-## 4. 확인
+4. 동작 확인
 
-```linux
-yum repolist
-```
+~~~
+yum install cowsaylocal
+~~~
