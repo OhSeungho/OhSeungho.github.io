@@ -18,15 +18,15 @@ article_section: VM
 meta_keywords: VirtualBox, CentOS, VM, 가상머신
 last_modified_at: 2020-07-07T00:00:00+00:00
 ---
-# local repository
+## local repository
 
-0. createrepo 설치
+## 0. createrepo 설치
 
 ~~~
 yum install createrepo -y
 ~~~
 
-1. rpm 디렉토리 생성
+## 1. rpm 디렉토리 생성
 
 ~~~
 mkdir /cowsay-local
@@ -35,7 +35,7 @@ mv [cowsay rpm file] /[cowsay-local]
 
 <u>기본 파일들은 백업해두기</u>
 
-2. repository 파일 생성
+## 2. repository 파일 생성
 
 ~~~
 vi /etc/yum.repos.d/[생성할 repository].repo
@@ -47,13 +47,13 @@ enabled=1 #
 gpgcheck=0 # 
 ~~~
 
-3. repository 생성
+## 3. repository 생성
 
 ~~~
 createrepo /cowsaylocal
 ~~~
 
-4. 동작 확인
+## 4. 동작 확인
 
 ~~~
 yum install cowsaylocal
