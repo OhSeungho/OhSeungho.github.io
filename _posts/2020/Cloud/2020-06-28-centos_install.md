@@ -19,6 +19,8 @@ meta_keywords: VirtualBox, CentOS, VM, 가상머신
 last_modified_at: 2020-06-28T00:00:00+00:00
 ---
 
+## VirtualBox를 활용하여 가상머신에 Cent OS 설치하기
+
 CPU : AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx
 
 <u># AMD CPU 사용자는 Bios에서 SVM Mode를 활성화 해주셔야 됩니다.</u>
