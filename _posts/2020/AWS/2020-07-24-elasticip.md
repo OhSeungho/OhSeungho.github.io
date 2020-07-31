@@ -1,5 +1,5 @@
 ---
-title: "AWS EC2 Instance 생성 및 MobaXterm SSH 접속"
+title: "AWS EC2 Elastic IP"
 layout: single
 author_profile: true
 read_time: true
