@@ -71,6 +71,12 @@ VM 인스턴스 외부 IP에서 httpd가 잘 동작하는지 확인해줍니다
 
 - MySQL
 
+VM 인스턴스에 MariaDB를 설치합니다
+
+~~~bash
+yum install mariadb mariadb-server
+~~~
+
 GCP의 SQL을 Wordpress Server VM 인스턴스에 Proxy 구성 연결하여 사용합니다
 
 ![08_sql](https://user-images.githubusercontent.com/51220344/89010398-7d828300-d349-11ea-9bdf-bf6d4060df7a.PNG)
@@ -134,6 +140,12 @@ vim /etc/httpd/conf/httpd.conf
 적당한 ServerAdmin, ServerName, ServerAlias를 지정해 줍니다
 
 ## 4. SQL 인스턴스 Proxy 연결 구성
+
+먼저 SELinux를 일시정지 시켜줍니다
+
+~~~bash
+setenforce 0
+~~~
 
 LAMP 준비 과정에서 생성한 SQL 인스턴스를 Proxy 연결을 통해 Wordpress를 준비합니다
 
