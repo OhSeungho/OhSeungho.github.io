@@ -26,7 +26,7 @@ Elastic IP Address는 AWS 계정과 연결됩니다
 
 이를 이용하여 주소의 계정의 다른 인스턴스에 신속하게 다시 매핑하여 인스턴스나 소프트웨어의 오류를 마스킹할 수 있습니다
 
-## 1. Elastic IP 
+## Elastic IP 
 
 Elastic IP의 기본 특성은 다음과 같습니다
 
