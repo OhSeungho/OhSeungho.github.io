@@ -14,8 +14,8 @@ toc_label: 목차
 description: LAMP
 article_tag1: VirtualBox
 article_tag2: Cent OS
-article_section: WordPress
-meta_keywords: WordPress, LAMP
+article_section: Message Board
+meta_keywords: dengonban
 last_modified_at: 2020-07-22T00:00:00+00:00
 ---
 ## GCP dengonban 메시지보드 생성하기
